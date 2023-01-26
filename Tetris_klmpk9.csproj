@@ -1,0 +1,75 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\tetris.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\7bFhy5.jpg" />
+    <None Remove="Assets\abu.png" />
+    <None Remove="Assets\asd.png" />
+    <None Remove="Assets\birrurua.png" />
+    <None Remove="Assets\biru.png" />
+    <None Remove="Assets\birutua.png" />
+    <None Remove="Assets\Block-Empty.png" />
+    <None Remove="Assets\Block-I.png" />
+    <None Remove="Assets\Block-J.png" />
+    <None Remove="Assets\Block-L.png" />
+    <None Remove="Assets\Block-O.png" />
+    <None Remove="Assets\Block-S.png" />
+    <None Remove="Assets\Block-T.png" />
+    <None Remove="Assets\Block-Z.png" />
+    <None Remove="Assets\hijau.png" />
+    <None Remove="Assets\kuning.png" />
+    <None Remove="Assets\merah.png" />
+    <None Remove="Assets\opopo.jpg" />
+    <None Remove="Assets\opp.jpg" />
+    <None Remove="Assets\oren.png" />
+    <None Remove="Assets\pink.png" />
+    <None Remove="Assets\sadfq.png" />
+    <None Remove="Assets\tidakadaisi.png" />
+    <None Remove="Assets\TileCyan.png" />
+    <None Remove="Assets\Untitled.png" />
+    <None Remove="Sound\Studio_Project.wav" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\tetris.ico" />
+    <Content Include="Sound\Studio_Project.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\7bFhy5.jpg" />
+    <Resource Include="Assets\abu.png" />
+    <Resource Include="Assets\asd.png" />
+    <Resource Include="Assets\birrurua.png" />
+    <Resource Include="Assets\biru.png" />
+    <Resource Include="Assets\birutua.png" />
+    <Resource Include="Assets\Block-Empty.png" />
+    <Resource Include="Assets\Block-I.png" />
+    <Resource Include="Assets\Block-J.png" />
+    <Resource Include="Assets\Block-L.png" />
+    <Resource Include="Assets\Block-O.png" />
+    <Resource Include="Assets\Block-S.png" />
+    <Resource Include="Assets\Block-T.png" />
+    <Resource Include="Assets\Block-Z.png" />
+    <Resource Include="Assets\hijau.png" />
+    <Resource Include="Assets\kuning.png" />
+    <Resource Include="Assets\merah.png" />
+    <Resource Include="Assets\opopo.jpg" />
+    <Resource Include="Assets\opp.jpg" />
+    <Resource Include="Assets\oren.png" />
+    <Resource Include="Assets\pink.png" />
+    <Resource Include="Assets\sadfq.png" />
+    <Resource Include="Assets\tidakadaisi.png" />
+    <Resource Include="Assets\TileCyan.png" />
+    <Resource Include="Assets\Untitled.png" />
+  </ItemGroup>
+
+</Project>
